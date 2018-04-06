@@ -4,6 +4,7 @@ package webdav
 // override for getcontenttype property?
 
 import (
+	"context"
 	"net/http"
 	"os"
 
@@ -15,7 +16,6 @@ import (
 	"github.com/ncw/rclone/vfs"
 	"github.com/ncw/rclone/vfs/vfsflags"
 	"github.com/spf13/cobra"
-	"golang.org/x/net/context"
 	"golang.org/x/net/webdav"
 )
 
